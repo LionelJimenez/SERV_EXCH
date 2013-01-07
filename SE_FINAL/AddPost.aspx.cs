@@ -50,7 +50,13 @@ namespace SE_FINAL
 
             if (_Login != null && _Pass != "")
             {
-                AppUser.ValidateUser(_Login, _Pass);
+                if (AppUser.ValidateUser(_Login, _Pass))
+                {
+                    PnlGoodPost.Visible = false;
+                    PnlBadAfterConf.Visible = false;
+                    PnlValidMail.Visible = true;
+                    PnlAddPost.Visible = false;
+                }
             }
 
             if (!Page.IsPostBack)
