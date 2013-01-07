@@ -305,7 +305,7 @@ namespace SE_FINAL
                             + "<h2>VALIDATION DE VOTRE ADRESSE EMAIL</h2>"
                             + "<p>"
                             + "<span>Veuillez valider votre email en cliquant sur le lien suivant :</span><br />"
-                            + "<a href=http://servicesexchange.apphb.com/AddPost.aspx?Lgn=" + MailTo + "&Ps=" + Pass + ">Lien de validation</a>"
+                            + "<a href=http://s-e.apphb.com/AddPost.aspx?Lgn=" + MailTo + "&Ps=" + Pass + ">Lien de validation</a>"
                             + "</p>"
                             + "</body>"
                             + "</html>";
