@@ -11,7 +11,7 @@ namespace SE_FINAL
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Response.Redirect("Home.aspx");
         }
     }
 }
